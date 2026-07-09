@@ -185,7 +185,7 @@ FIPS 203 **ML-KEM (CRYSTALS-Kyber)** for Rust — pure-Rust, `no_std`, ACVP 180/
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spider4Tech&theme=tokyonight&hide_border=true&background=1a1b27&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" height="165" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spider4Tech&theme=radical&hide_border=true&background=1A1120&ring=F5A9B8&fire=5BCEFA&currStreakLabel=F5A9B8&sideLabels=FFB6D9&dates=FFB6D9" height="165" alt="Streak Stats" />
 </div>
 ---
 
