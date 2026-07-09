@@ -208,6 +208,6 @@ I build things that work correctly under adversarial conditions. I care about **
 
 <a href="https://github.com/Spider4Tech"><img src="https://img.shields.io/badge/GitHub-Spider4Tech-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-<sub>Open to collaboration on <b>cryptography</b>, <b>systems</b>, and <b>distributed computing</b>.</sub>
+<sub>Open to collaboration</sub>
 
 </div>
