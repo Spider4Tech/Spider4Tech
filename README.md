@@ -116,7 +116,7 @@ A solar-panel management system for a Dyson Sphere — an exploratory systems pr
 
 ## 🦋 `~/ open-source-contributions`
 
-> a little upstream love for production cryptography 💌
+> a little upstream for production cryptography 
 
 **[`sebastienrousseau/kyberlib`](https://github.com/sebastienrousseau/kyberlib)** &nbsp;·&nbsp; ![Stars](https://img.shields.io/github/stars/sebastienrousseau/kyberlib?style=flat-square&color=F5A9B8&labelColor=5BCEFA)
 
