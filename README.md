@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:F5A9B8,50:FFFFFF,100:5BCEFA&text=Spider4Tech&fontColor=C71585&fontSize=58&fontAlignY=38&desc=%E2%9C%A8%20she%2Fher%20%C2%B7%20cryptography%20cutie%20%C2%B7%20systems%20girlie%20%E2%9C%A8&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="Spider4Tech banner" />
 
 <a href="https://github.com/Spider4Tech">
-  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=700&size=22&pause=1200&color=F5A9B8&center=true&vCenter=true&width=720&height=40&lines=writes+memory-safe+Rust6;applied+cryptography+%26+distributed+systems+%E2%9C%A8;building+serious+tech%2C+staying+soft+%F0%9F%A6%8B" alt="intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=700&size=22&pause=1200&color=F5A9B8&center=true&vCenter=true&width=720&height=40&lines=writes+memory-safe+Rust6;applied+cryptography+%26+distributed+systems;building+serious+tech%2C" alt="intro" />
 </a>
 
 <br/>
