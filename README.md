@@ -8,17 +8,13 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%E2%9A%A7%EF%B8%8F-trans%20%26%20proud-F5A9B8?style=for-the-badge&labelColor=5BCEFA" alt="trans and proud" />
-&nbsp;
-<img src="https://img.shields.io/badge/pronouns-she%2Fher-F5A9B8?style=for-the-badge&labelColor=FFB6D9" alt="she/her" />
-&nbsp;
 <a href="https://github.com/Spider4Tech"><img src="https://komarev.com/ghpvc/?username=Spider4Tech&style=for-the-badge&color=FF6FB5&label=PROFILE+VIEWS" alt="Profile Views" /></a>
 
 </div>
 
 ---
 
-## 💖 `~/ whoami`
+##  `~/ whoami`
 
 ```python
 class Spider4Tech:
