@@ -1,274 +1,204 @@
- <div align="center">
-
 # Spider4Tech
 
-### Building software. Exploring systems. Understanding security.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Spider4Tech&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20%7C%20Security%20%7C%20Systems&descAlignY=60&descSize=18" width="100%"/>
+</p>
 
-*Developer · Systems · Cybersecurity · Cryptography · Distributed Computing*
+<p align="center">
+  <a href="https://github.com/Spider4Tech">
+    <img src="https://img.shields.io/badge/GitHub-Spider4Tech-111827?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://altrion-systems.fr/">
+    <img src="https://img.shields.io/badge/Altrion%20Systems-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
 
-<a href="https://github.com/Spider4Tech">
-  <img src="https://img.shields.io/badge/GitHub-Spider4Tech-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-</a>
-<a href="https://altrion-systems.fr/">
-  <img src="https://img.shields.io/badge/Altrion_Systems-Website-2563EB?style=for-the-badge" alt="Altrion Systems"/>
-</a>
-
-</div>
-
----
-
-## Who I am
-
-I'm a developer who enjoys going beyond the surface of software.
-
-I like understanding how systems work, where they fail, and how they can be made more reliable, secure, or efficient.
-
-My projects cover a fairly wide range: distributed computing, cryptography, cybersecurity, Linux tooling, web applications, and experimental software.
-
-Some are designed as practical tools. Others are explorations of an idea. What connects them is the desire to build, test, and learn by doing.
-
-> I don't just want to use technology. I want to understand it, build it, and see what it can become.
+<p align="center">
+  I build software, explore systems and develop security-oriented tools.
+</p>
 
 ---
 
-## Areas of interest
+## About
+
+I'm a developer interested in the parts of software that are usually hidden:
+
+* how systems communicate and scale;
+* how applications protect sensitive data;
+* how distributed workloads are coordinated;
+* how vulnerabilities can be detected before they become incidents;
+* how complex technical ideas can become usable products.
+
+My projects are mostly experimental, technical and focused on learning by building.
+
+---
+
+## Selected projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
+  <tr>
+    <td width="50%" valign="top">
 
-### Systems & Performance
+### SODIUM
 
-* Rust and low-level programming
-* Concurrency and memory management
-* Distributed computing
-* Linux and infrastructure
-* Performance-oriented software
+Security-oriented file scanner designed to combine several analysis engines into a single workflow.
 
-</td>
-<td width="50%" valign="top">
+**Focus**
 
-### Security & Cryptography
+* Static malware analysis
+* Multi-engine detection
+* Risk scoring
+* Wazuh integration
+* Isolated dynamic analysis
 
-* Defensive security tooling
-* File analysis and malware detection
-* Secure storage and secret handling
-* Cryptographic implementations
+    </td>
+    <td width="50%" valign="top">
+
+### HyperCompute
+
+Distributed computing platform written in Rust.
+
+**Focus**
+
+* Scheduler and workers
+* Distributed workloads
+* Node capabilities
+* REST and WebSocket communication
+* Resource-aware execution
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### Hecate
+
+Secure memory vault focused on protecting sensitive information in memory.
+
+**Focus**
+
+* Rust
+* Authenticated encryption
+* Argon2
+* Memory zeroization
+* Secure data handling
+
+    </td>
+    <td width="50%" valign="top">
+
+### Horizon
+
+Cryptographic experimentation project exploring secure data processing and parallel operations.
+
+**Focus**
+
+* Symmetric encryption
+* BLAKE3
+* Argon2id
+* HMAC
+* Parallel processing
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### kyberlib
+
+Rust implementation and experimentation around Kyber / ML-KEM concepts.
+
+**Focus**
+
 * Post-quantum cryptography
+* Key encapsulation
+* `no_std`
+* Low-level Rust development
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+    </td>
+    <td width="50%" valign="top">
 
-### Applications & Web
+### IronPass
 
-* Rust, Python, TypeScript
-* Svelte and web applications
-* Desktop tools
-* APIs and backend services
-* Automation and utilities
+Password manager concept focused on encrypted storage and a zero-knowledge-oriented architecture.
 
-</td>
-<td width="50%" valign="top">
+**Focus**
 
-### Research & Experimentation
+* Password security
+* Argon2id
+* Encrypted storage
+* Rust and web technologies
+* Privacy by design
 
-* Simulations
-* Algorithmic experiments
-* New architectures
-* Prototypes
-* Exploring unconventional approaches
+    </td>
+  </tr>
 
-</td>
-</tr>
 </table>
 
 ---
 
-# Featured projects
+## Other experiments
 
-These are some of the projects that best represent the kind of software I enjoy building.
-
-## SODIUM
-
-### File Security Scanner
-
-**Go · ClamAV · YARA · Wazuh · Podman**
-
-A multi-engine file analysis service designed to integrate with Wazuh and analyze files originating from both Windows and Linux systems.
-
-SODIUM combines several independent detection and analysis layers:
-
-* ClamAV and YARA for threat detection.
-* Linux Malware Detect and LOKI for complementary detection and IOC analysis.
-* CAPA and Detect It Easy for program capability and binary identification.
-* Static analysis of PE, ELF, scripts, documents, and archives.
-* A local reputation database based on file hashes.
-* A configurable Risk Engine producing a score, verdict, confidence, and explanation.
-
-The project is designed around an important security principle: **the scanner itself never executes the analyzed file.**
-
-Dynamic analysis is treated as a separate, explicitly triggered operation using an isolated CAPE environment.
-
-The architecture also separates the scanner from the Wazuh manager, avoiding direct access to the manager's filesystem.
-
-[Explore SODIUM →](https://github.com/Spider4Tech/SODIUM)
+| Project             | Description                                          |
+| ------------------- | ---------------------------------------------------- |
+| **NukeIt**          | Secure file deletion and sanitization tool           |
+| **Social-Sync**     | Desktop application and social platform integration  |
+| **Starduste Video** | Web-based video project                              |
+| **2050**            | Rust simulation around solar-panel swarms and energy |
+| **Rcontrol**        | Remote-control and system experimentation            |
+| **SendIT**          | File transfer experimentation                        |
+| **Planalife**       | Planning and productivity project                    |
 
 ---
 
-## HyperCompute
+## Technologies
 
-### Distributed Computing
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,python,typescript,javascript,html,css,linux,docker,git,github,nginx" />
+</p>
 
-**Rust · REST · WebSockets · Scheduling**
-
-An exploration of distributed computing and workload orchestration.
-
-HyperCompute focuses on coordinating workers, dispatching jobs, handling node capabilities, and distributing workloads across a computing environment.
-
-The project explores the practical challenges behind distributed execution: scheduling, communication, reliability, and the coordination of multiple machines.
-
-[Explore HyperCompute →](https://github.com/Spider4Tech/Hypercompute)
-
----
-
-## Hecate
-
-### Secure Memory Vault
-
-**Rust · Argon2 · Encryption · Zeroization**
-
-A security-oriented project exploring the protection of sensitive information in application memory.
-
-Hecate focuses on encrypted storage, password-based key derivation, and memory handling for secrets.
-
-The goal is to understand the practical challenges involved in protecting sensitive data throughout its lifecycle.
-
-[Explore Hecate →](https://github.com/Spider4Tech/Hecate)
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-Systems%20%26%20Security-b7410e?style=flat-square&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-Infrastructure-111827?style=flat-square&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cybersecurity-Research-2563eb?style=flat-square&logo=hackthebox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web-Development-0f766e?style=flat-square&logo=googlechrome&logoColor=white" />
+</p>
 
 ---
 
-## Horizon
+## How I work
 
-### Cryptography & Secure Software
+I prefer understanding a problem from the inside rather than only using an existing solution.
 
-**Rust · Symmetric Cryptography · BLAKE3 · Argon2id**
+That usually means:
 
-A cryptographic software project exploring encryption, key derivation, parallel processing, and secure handling of sensitive data.
+1. researching the underlying mechanisms;
+2. building a first working version;
+3. testing its limits;
+4. improving the architecture;
+5. turning the experiment into something more reliable.
 
-Horizon is part of my broader interest in understanding cryptographic systems beyond simply calling a library function.
-
-[Explore Horizon →](https://github.com/Spider4Tech/gh)
-
----
-
-## kyberlib
-
-### Post-Quantum Cryptography
-
-**Rust · ML-KEM / Kyber · no_std**
-
-An implementation-oriented project exploring post-quantum cryptography and key encapsulation mechanisms.
-
-The project investigates how cryptographic primitives can be implemented in Rust with attention to portability, allocation constraints, and secure key exchange.
-
-[Explore kyberlib →](https://github.com/Spider4Tech/kyberlib_SODIUM)
+Not every project is finished. Some are prototypes, some are long-term experiments, and others become the foundation for larger systems.
 
 ---
 
-## IronPass
+## Beyond GitHub
 
-### Password Manager Concept
+I'm also developing **Altrion Systems**, a company focused on:
 
-**Rust · Web · Argon2id · Encrypted Storage**
+* web development;
+* application development;
+* infrastructure;
+* cybersecurity;
+* technical support and custom solutions.
 
-A security-oriented password manager project exploring encrypted client-side data, password-derived keys, and the design of a system where sensitive information remains protected.
-
-The project brings together several of my interests: application development, cryptography, and security architecture.
-
-[Explore IronPass →](https://github.com/Spider4Tech/IronPass)
-
----
-
-## NukeIt
-
-### Secure File Deletion
-
-**Cross-platform · File Systems · Security**
-
-A project exploring secure file deletion and the practical limitations of erasing data from modern storage devices.
-
-It is an example of the kind of utility I enjoy building: focused on a specific problem, but requiring an understanding of what happens beneath the interface.
-
-[Explore NukeIt →](https://github.com/Spider4Tech/NukeIt)
+🌐 **Website:** https://altrion-systems.fr/
 
 ---
 
-## Other projects
+<p align="center">
+  <i>Build things. Understand systems. Improve continuously.</i>
+</p>
 
-My repositories also include web applications, desktop tools, automation, and experimental projects.
-
-Some are smaller utilities. Others are early-stage ideas that I use to explore a technology or a different approach to solving a problem.
-
-A few examples:
-
-* **Social-Sync** — Application development and social-platform integration.
-* **Starduste Video** — Web application project.
-* **2050** — Experimental simulation project.
-* **Rcontrol** — Tooling and experimentation.
-* **AutoBump** — Automation.
-* **Planalife** — Experimental software.
-* **SendIT** — Utility project.
-
-[Browse all repositories →](https://github.com/Spider4Tech?tab=repositories)
-
----
-
-# Technologies
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=rust,python,typescript,go,c,cpp" alt="Rust, Python, TypeScript, Go, C and C++"/>
-
-### Web & Applications
-
-<img src="https://skillicons.dev/icons?i=svelte,html,css" alt="Svelte, HTML and CSS"/>
-
-### Infrastructure & Security
-
-<img src="https://skillicons.dev/icons?i=linux,docker,git" alt="Linux, Docker and Git"/>
-
-</div>
-
----
-
-# How I approach projects
-
-I enjoy projects that require more than simply connecting a few libraries together.
-
-Whether it's a distributed scheduler, a file security scanner, a cryptographic implementation, or a small utility, I like understanding the underlying mechanisms and thinking about what happens when things go wrong.
-
-That means paying attention to:
-
-* Security boundaries and failure modes.
-* Resource usage and performance.
-* Clear separation of responsibilities.
-* Practical testing and validation.
-* The difference between a promising prototype and a reliable tool.
-
-Not every repository is a finished product. Some are experiments, and that's part of the point.
-
----
-
-<div align="center">
-
-## Thanks for visiting.
-
-If you find something interesting, feel free to explore the repositories.
-
-<a href="https://github.com/Spider4Tech?tab=repositories">View my repositories →</a>
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=110&section=footer" width="100%"/>
+</p>
