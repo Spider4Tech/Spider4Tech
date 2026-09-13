@@ -233,42 +233,66 @@ The project is particularly interesting to me because it combines:
 
 ## `~/ tech-stack`
 
-### Systems & low-level
-
+<table>
+<thead>
+<tr>
+<th align="left">Category</th>
+<th align="left">Technologies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>Systems & Low-level</b></td>
+<td>
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-
-### Backend & services
-
+</td>
+</tr>
+<tr>
+<td><b>Backend & Services</b></td>
+<td>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/REST%20API-2563EB?style=flat-square" />
 <img src="https://img.shields.io/badge/WebSockets-4353FF?style=flat-square" />
-
-### Web
-
+</td>
+</tr>
+<tr>
+<td><b>Web & Frontend</b></td>
+<td>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-
-### Security & cryptography
-
+</td>
+</tr>
+<tr>
+<td><b>Security & Cryptography</b></td>
+<td>
 <img src="https://img.shields.io/badge/OpenSSL-721412?style=flat-square&logo=openssl&logoColor=white" />
 <img src="https://img.shields.io/badge/Argon2-4B0082?style=flat-square" />
 <img src="https://img.shields.io/badge/AES--GCM-4B0082?style=flat-square" />
+<img src="https://img.shields.io/badge/HMAC--SHA256-8B5CF6?style=flat-square" />
 <img src="https://img.shields.io/badge/BLAKE3-2A2A72?style=flat-square" />
 <img src="https://img.shields.io/badge/ML--KEM-8B5CF6?style=flat-square" />
-
-### Infrastructure & tooling
-
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td><b>Infrastructure</b></td>
+<td>
 <img src="https://img.shields.io/badge/Podman-892CA0?style=flat-square&logo=podman&logoColor=white" />
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ---
 
