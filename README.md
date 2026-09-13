@@ -1,126 +1,84 @@
-<div align="center">
+ <div align="center">
 
-```
- ██████╗ ██████╗ ██╗██████╗ ███████╗██████╗ ██╗  ██╗████████╗███████╗ ██████╗██╗  ██╗
-██╔════╝ ██╔══██╗██║██╔══██╗██╔════╝██╔══██╗╚██╗██╔╝╚══██╔══╝██╔════╝██╔════╝██║  ██║
-╚█████╗  ██████╔╝██║██║  ██║█████╗  ██████╔╝ ╚███╔╝    ██║   █████╗  ██║     ███████║
- ╚═══██╗ ██╔═══╝ ██║██║  ██║██╔══╝  ██╔══██╗ ██╔██╗    ██║   ██╔══╝  ██║     ██╔══██║
-██████╔╝ ██║     ██║██████╔╝███████╗██║  ██║██╔╝ ██╗   ██║   ███████╗╚██████╗██║  ██║
-╚═════╝  ╚═╝     ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝
-```
+# Spider4Tech
+
+### Building software. Exploring systems. Understanding security.
+
+*Developer · Systems · Cybersecurity · Cryptography · Distributed Computing*
 
 <a href="https://github.com/Spider4Tech">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=8B5CF6&center=true&vCenter=true&width=720&height=40&lines=Systems+Engineer+%E2%80%A2+Applied+Cryptography;Distributed+Computing+%E2%80%A2+Security;Memory+Safety+%E2%80%A2+Zero-Compromise+Correctness" alt="Roles" />
+  <img src="https://img.shields.io/badge/GitHub-Spider4Tech-181717?style=for-the-badge&logo=github" alt="GitHub"/>
 </a>
-
-<br/>
-
-<a href="https://github.com/Spider4Tech"><img src="https://komarev.com/ghpvc/?username=Spider4Tech&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" alt="Profile Views" /></a>
-&nbsp;
-<img src="https://img.shields.io/github/followers/Spider4Tech?style=for-the-badge&color=8B5CF6&labelColor=1a1b27&label=FOLLOWERS" alt="Followers" />
-&nbsp;
-<img src="https://img.shields.io/badge/OPEN%20TO-COLLABORATION-8B5CF6?style=for-the-badge&labelColor=1a1b27" alt="Open to collaboration" />
+<a href="https://altrion-systems.fr/">
+  <img src="https://img.shields.io/badge/Altrion_Systems-Website-2563EB?style=for-the-badge" alt="Altrion Systems"/>
+</a>
 
 </div>
 
 ---
 
-## `~/ whoami`
+## Who I am
 
-```rust
-struct Spider4Tech {
-    focus:     &'static [&'static str],
-    languages: &'static [&'static str],
-    interests: &'static [&'static str],
-    motto:     &'static str,
-}
+I'm a developer who enjoys going beyond the surface of software.
 
-const ME: Spider4Tech = Spider4Tech {
-    focus:     &["Systems Programming", "Applied Cryptography", "Distributed Computing", "Web Engineering"],
-    languages: &["Rust", "Go", "C", "C++", "COBOL", "Svelte", "TypeScript", "Python"],
-    interests: &["Memory Safety", "Secure Vaults", "HPC / MPI", "Cryptanalysis", "Low-level Internals"],
-    motto:     "A little spider building serious tech — with precision and curiosity.",
-};
-```
+I like understanding how systems work, where they fail, and how they can be made more reliable, secure, or efficient.
 
-I design software at the intersection of **performance**, **security**, and **correctness** — from bare-metal memory management to distributed cluster orchestration. My work emphasises **minimal attack surface**, **formal reasoning about system state**, and **zero compromise** on safety invariants.
+My projects cover a fairly wide range: distributed computing, cryptography, cybersecurity, Linux tooling, web applications, and experimental software.
+
+Some are designed as practical tools. Others are explorations of an idea. What connects them is the desire to build, test, and learn by doing.
+
+> I don't just want to use technology. I want to understand it, build it, and see what it can become.
 
 ---
 
-## `~/ featured-projects`
+## Areas of interest
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🕸 [HyperCompute](https://github.com/Spider4Tech/Hypercompute)
+### Systems & Performance
 
-**Distributed compute cluster · Rust**
-
-A production-grade task scheduler and execution fabric for MPI workloads across heterogeneous node clusters. Real-time scoring algorithm, WebSocket worker protocol, fault tolerance, and a full REST API.
-
-<sub>
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/Axum-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/WebSocket-4353FF?style=flat-square&logo=socketdotio&logoColor=white" />
-<img src="https://img.shields.io/badge/MPI-0F62FE?style=flat-square" />
-</sub>
-
-`distributed` · `HPC` · `scheduler` · `fault-tolerance`
+* Rust and low-level programming
+* Concurrency and memory management
+* Distributed computing
+* Linux and infrastructure
+* Performance-oriented software
 
 </td>
 <td width="50%" valign="top">
 
-### 🔐 [Hecate](https://github.com/Spider4Tech/Hecate)
+### Security & Cryptography
 
-**Cryptographic memory vault · Rust**
-
-An in-memory secret vault using AEAD encryption, Argon2 key derivation, memory fragmentation, decoy data, and zeroize-backed structures — engineered to minimise memory-forensics exposure for long-lived secrets in RAM.
-
-<sub>
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/Argon2-721412?style=flat-square" />
-<img src="https://img.shields.io/badge/AES--GCM-4B0082?style=flat-square" />
-<img src="https://img.shields.io/badge/SHA3-8B5CF6?style=flat-square" />
-</sub>
-
-`cryptography` · `memory-safety` · `AEAD` · `vault`
+* Defensive security tooling
+* File analysis and malware detection
+* Secure storage and secret handling
+* Cryptographic implementations
+* Post-quantum cryptography
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌅 [Horizon](https://github.com/Hestia-Tech/gh)
+### Applications & Web
 
-**High-performance symmetric cipher · Rust**
-
-A parallelised cipher built on custom key-dependent S-boxes (GF(256) + BLAKE3), Argon2id key derivation, HMAC-SHA256 integrity, and constant-time operations throughout — hardened against timing, cache, and linear cryptanalysis.
-
-<sub>
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/BLAKE3-2A2A72?style=flat-square" />
-<img src="https://img.shields.io/badge/HMAC--SHA256-8B5CF6?style=flat-square" />
-<img src="https://img.shields.io/badge/Rayon-DEA584?style=flat-square&logoColor=black" />
-</sub>
-
-`cipher` · `side-channel-resistant` · `parallel` · `GF256`
+* Rust, Python, TypeScript
+* Svelte and web applications
+* Desktop tools
+* APIs and backend services
+* Automation and utilities
 
 </td>
 <td width="50%" valign="top">
 
-### ☀️ [2050](https://github.com/Spider4Tech/2050)
+### Research & Experimentation
 
-**Dyson Sphere panel manager · Rust**
-
-A solar-panel management system for a Dyson Sphere — an exploratory systems project in Rust with a Makefile-driven build, pushing large-scale resource orchestration as a design exercise.
-
-<sub>
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/Makefile-427819?style=flat-square&logo=gnu&logoColor=white" />
-</sub>
-
-`systems` · `simulation` · `resource-management`
+* Simulations
+* Algorithmic experiments
+* New architectures
+* Prototypes
+* Exploring unconventional approaches
 
 </td>
 </tr>
@@ -128,81 +86,189 @@ A solar-panel management system for a Dyson Sphere — an exploratory systems pr
 
 ---
 
-## `~/ open-source-contributions`
+# Featured projects
 
-> Selected upstream work on production cryptography.
+These are some of the projects that best represent the kind of software I enjoy building.
 
-**[`sebastienrousseau/kyberlib`](https://github.com/sebastienrousseau/kyberlib)** &nbsp;·&nbsp; ![Stars](https://img.shields.io/github/stars/sebastienrousseau/kyberlib?style=flat-square&color=8B5CF6&labelColor=1a1b27)
+## SODIUM
 
-FIPS 203 **ML-KEM (CRYSTALS-Kyber)** for Rust — pure-Rust, `no_std`, ACVP 180/180, KyberSlash-clean, with SLSA L3 + cosign-signed releases. Published on crates.io as `kyberlib` and `kyberlib-wasm`. A reference-grade **post-quantum** key-encapsulation crate.
+### File Security Scanner
 
----
+**Go · ClamAV · YARA · Wazuh · Podman**
 
-## `~/ tech-stack`
+A multi-engine file analysis service designed to integrate with Wazuh and analyze files originating from both Windows and Linux systems.
 
-**Systems & Low-level**
-&nbsp;
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![COBOL](https://img.shields.io/badge/COBOL-005C84?style=flat-square&logoColor=white)
+SODIUM combines several independent detection and analysis layers:
 
-**Backend & Services**
-&nbsp;
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+* ClamAV and YARA for threat detection.
+* Linux Malware Detect and LOKI for complementary detection and IOC analysis.
+* CAPA and Detect It Easy for program capability and binary identification.
+* Static analysis of PE, ELF, scripts, documents, and archives.
+* A local reputation database based on file hashes.
+* A configurable Risk Engine producing a score, verdict, confidence, and explanation.
 
-**Web & Frontend**
-&nbsp;
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+The project is designed around an important security principle: **the scanner itself never executes the analyzed file.**
 
-**Security & Cryptography**
-&nbsp;
-![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat-square&logo=openssl&logoColor=white)
-![Argon2](https://img.shields.io/badge/Argon2-4B0082?style=flat-square)
-![AES-GCM](https://img.shields.io/badge/AES--GCM-4B0082?style=flat-square)
-![SHA-3](https://img.shields.io/badge/SHA--3-8B5CF6?style=flat-square)
-![BLAKE3](https://img.shields.io/badge/BLAKE3-2A2A72?style=flat-square)
-![ML-KEM](https://img.shields.io/badge/ML--KEM-8B5CF6?style=flat-square)
+Dynamic analysis is treated as a separate, explicitly triggered operation using an isolated CAPE environment.
 
-**Tooling**
-&nbsp;
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+The architecture also separates the scanner from the Wazuh manager, avoiding direct access to the manager's filesystem.
+
+[Explore SODIUM →](https://github.com/Spider4Tech/SODIUM)
 
 ---
 
-## `~/ github-stats`
+## HyperCompute
+
+### Distributed Computing
+
+**Rust · REST · WebSockets · Scheduling**
+
+An exploration of distributed computing and workload orchestration.
+
+HyperCompute focuses on coordinating workers, dispatching jobs, handling node capabilities, and distributing workloads across a computing environment.
+
+The project explores the practical challenges behind distributed execution: scheduling, communication, reliability, and the coordination of multiple machines.
+
+[Explore HyperCompute →](https://github.com/Spider4Tech/Hypercompute)
+
+---
+
+## Hecate
+
+### Secure Memory Vault
+
+**Rust · Argon2 · Encryption · Zeroization**
+
+A security-oriented project exploring the protection of sensitive information in application memory.
+
+Hecate focuses on encrypted storage, password-based key derivation, and memory handling for secrets.
+
+The goal is to understand the practical challenges involved in protecting sensitive data throughout its lifecycle.
+
+[Explore Hecate →](https://github.com/Spider4Tech/Hecate)
+
+---
+
+## Horizon
+
+### Cryptography & Secure Software
+
+**Rust · Symmetric Cryptography · BLAKE3 · Argon2id**
+
+A cryptographic software project exploring encryption, key derivation, parallel processing, and secure handling of sensitive data.
+
+Horizon is part of my broader interest in understanding cryptographic systems beyond simply calling a library function.
+
+[Explore Horizon →](https://github.com/Spider4Tech/gh)
+
+---
+
+## kyberlib
+
+### Post-Quantum Cryptography
+
+**Rust · ML-KEM / Kyber · no_std**
+
+An implementation-oriented project exploring post-quantum cryptography and key encapsulation mechanisms.
+
+The project investigates how cryptographic primitives can be implemented in Rust with attention to portability, allocation constraints, and secure key exchange.
+
+[Explore kyberlib →](https://github.com/Spider4Tech/kyberlib_SODIUM)
+
+---
+
+## IronPass
+
+### Password Manager Concept
+
+**Rust · Web · Argon2id · Encrypted Storage**
+
+A security-oriented password manager project exploring encrypted client-side data, password-derived keys, and the design of a system where sensitive information remains protected.
+
+The project brings together several of my interests: application development, cryptography, and security architecture.
+
+[Explore IronPass →](https://github.com/Spider4Tech/IronPass)
+
+---
+
+## NukeIt
+
+### Secure File Deletion
+
+**Cross-platform · File Systems · Security**
+
+A project exploring secure file deletion and the practical limitations of erasing data from modern storage devices.
+
+It is an example of the kind of utility I enjoy building: focused on a specific problem, but requiring an understanding of what happens beneath the interface.
+
+[Explore NukeIt →](https://github.com/Spider4Tech/NukeIt)
+
+---
+
+## Other projects
+
+My repositories also include web applications, desktop tools, automation, and experimental projects.
+
+Some are smaller utilities. Others are early-stage ideas that I use to explore a technology or a different approach to solving a problem.
+
+A few examples:
+
+* **Social-Sync** — Application development and social-platform integration.
+* **Starduste Video** — Web application project.
+* **2050** — Experimental simulation project.
+* **Rcontrol** — Tooling and experimentation.
+* **AutoBump** — Automation.
+* **Planalife** — Experimental software.
+* **SendIT** — Utility project.
+
+[Browse all repositories →](https://github.com/Spider4Tech?tab=repositories)
+
+---
+
+# Technologies
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Spider4Tech&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=8B5CF6&icon_color=8B5CF6" height="165" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Spider4Tech&layout=compact&langs_count=8&card_width=340&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=8B5CF6" height="165" alt="Top Languages" />
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=rust,python,typescript,go,c,cpp" alt="Rust, Python, TypeScript, Go, C and C++"/>
+
+### Web & Applications
+
+<img src="https://skillicons.dev/icons?i=svelte,html,css" alt="Svelte, HTML and CSS"/>
+
+### Infrastructure & Security
+
+<img src="https://skillicons.dev/icons?i=linux,docker,git" alt="Linux, Docker and Git"/>
+
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spider4Tech&theme=radical&hide_border=true&background=1A1120&ring=F5A9B8&fire=5BCEFA&currStreakLabel=F5A9B8&sideLabels=FFB6D9&dates=FFB6D9" height="165" alt="Streak Stats" />
-</div>
 ---
 
-## `~/ philosophy`
+# How I approach projects
 
-> *"Security is not a feature. It's a constraint the entire system must satisfy — from the allocator to the API boundary."*
+I enjoy projects that require more than simply connecting a few libraries together.
 
-I build things that work correctly under adversarial conditions. I care about **memory hygiene**, **cryptographic correctness**, and systems that **degrade gracefully** under failure.
+Whether it's a distributed scheduler, a file security scanner, a cryptographic implementation, or a small utility, I like understanding the underlying mechanisms and thinking about what happens when things go wrong.
+
+That means paying attention to:
+
+* Security boundaries and failure modes.
+* Resource usage and performance.
+* Clear separation of responsibilities.
+* Practical testing and validation.
+* The difference between a promising prototype and a reliable tool.
+
+Not every repository is a finished product. Some are experiments, and that's part of the point.
 
 ---
 
 <div align="center">
 
-### Let's build something secure.
+## Thanks for visiting.
 
-<a href="https://github.com/Spider4Tech"><img src="https://img.shields.io/badge/GitHub-Spider4Tech-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+If you find something interesting, feel free to explore the repositories.
 
-<sub>Open to collaboration</sub>
+<a href="https://github.com/Spider4Tech?tab=repositories">View my repositories →</a>
 
 </div>
